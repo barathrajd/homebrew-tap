@@ -7,8 +7,8 @@ class Gitview < Formula
   # The macOS archive is the default, so Homebrew can load the formula on
   # every machine; the arch dependencies then refuse anything but Apple
   # Silicon and x86_64 Linux before downloading.
-  url "https://github.com/barathrajd/gitview/releases/download/v0.7.0/gitview-v0.7.0-macos-arm64.tar.gz"
-  sha256 "d55d1fd07daadb40ad8c0a925fee4cce9ba6d1d549353772348cba04c62737be"
+  url "https://github.com/barathrajd/gitview/releases/download/v0.7.1/gitview-v0.7.1-macos-arm64.tar.gz"
+  sha256 "0594f31e2eaad40610f0d52c45215eee5939ec08144ccc2f27b7f2b1f8c6950e"
   license "MIT"
 
   depends_on "git"
@@ -21,8 +21,8 @@ class Gitview < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/barathrajd/gitview/releases/download/v0.7.0/gitview-v0.7.0-linux-x86_64.tar.gz"
-      sha256 "647fb3c5455c455d8fb9885e9ee06877fe07f4d983f3616a86a4257f00aea1f7"
+      url "https://github.com/barathrajd/gitview/releases/download/v0.7.1/gitview-v0.7.1-linux-x86_64.tar.gz"
+      sha256 "8a2b5a18ae2e973cfc8bf2e37dd1c28e2a0740f4c83d822e58dca0c2c8b81711"
     end
   end
 
